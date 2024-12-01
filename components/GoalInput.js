@@ -23,7 +23,8 @@ const GoalInput = (props) => {
       <View style={styles.inputContainer}>
         <Image
           style={styles.image}
-          source={require("../assets/images/goal.png")}
+          // source={require("../assets/images/goal.png")}
+          source={"/some/path"}
         />
         <TextInput
           style={styles.textInput}
